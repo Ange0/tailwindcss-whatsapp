@@ -120,14 +120,14 @@
             <!-- Contacts -->
 
             <!-- Chat -->
-            <div class="flex flex-col bg-[#0b141a] overflow-hidden flex-grow">
+            <div class="flex flex-col bg-[#0b141a] overflow-hidden flex-grow"  style="background-image: url('./assets/bg-chat.png'); ">
                  <!-- Header -->
                  <div class="flex justify-between bg-[#202c33] px-4 py-2">
                     <div class="flex flex-none space-x-2 items-center">
                         <img src="./assets/user-2.jpg" class="rounded-full h-10 w-10" alt="">
                         <div class="flex flex-col">
                             <span class="font-bold text-[#e9edef]">A-lis</span>
-                            <span class="text-sm text-[#73828b]">en ligne le 19/05/2022 à 15:56</span>
+                            <span class="text-sm text-[#aebac1]">en ligne le 19/05/2022 à 15:56</span>
                         </div>
                     </div>
                     <div class="flex flex-none items-center space-x-8">
@@ -142,26 +142,24 @@
                 <!-- Header -->
 
                 <!-- Body -->
-                <div style="background-image: url('./assets/bg-chat.png'); " class="flex-grow">
-                    <div class="flex flex-col space-y-4 w-full h-full py-4 px-24 bg-black-rgba">
-
+                    <div class="flex flex-col space-y-4 w-full py-4 px-24 bg-black-rgba overflow-y-auto flex-grow">
                         <!-- Message One >> -->
-                            <div class="flex text-white">
-                                <!-- Received message text 1 -->
-                                <div class="flex flex-none space-x-6 bg-[#202c33] px-2 py-1 rounded-tr-md rounded-br-md rounded-bl-md">
-                                    <span class="text-sm">Cc comment tu vas ?</span>
-                                    <span class="mt-3 text-[10px] text-[#73828b] font-bold">11:20</span>
-                                </div>
-                                <!-- Received message text 1 -->
+                        <div class="flex text-white">
+                            <!-- Received message text 1 -->
+                            <div class="flex flex-none space-x-6 bg-[#202c33] px-2 py-1 rounded-tr-md rounded-br-md rounded-bl-md">
+                                <span class="text-sm">Cc comment tu vas ?</span>
+                                <span class="mt-3 text-[10px] text-[#aebac1] font-bold">11:20</span>
                             </div>
+                            <!-- Received message text 1 -->
+                        </div>
                         <!-- Message One >> -->
-                            
+                        
                         <!-- Message Two -->
                             <div class="flex text-white justify-end">
                                 <!-- send message text 2 << -->
                                 <div class="flex flex-none space-x-6 bg-[#005c4b] px-2  py-1 rounded-tl-md rounded-br-md rounded-bl-md">
                                     <span class="text-sm">Cc comment tu vas ?</span>
-                                    <span class="mt-3 text-[10px] text-[#73828b] font-bold">
+                                    <span class="mt-3 text-[10px] text-[#aebac1] font-bold">
                                         11:20
                                         <svg viewBox="0 0 16 15" width="16" height="15" class="inline-block">
                                             <path fill="#43aacc" d="m15.01 3.316-.478-.372a.365.365 0 0 0-.51.063L8.666 9.879a.32.32 0 0 1-.484.033l-.358-.325a.319.319 0 0 0-.484.032l-.378.483a.418.418 0 0 0 .036.541l1.32 1.266c.143.14.361.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0-.478-.372a.365.365 0 0 0-.51.063L4.566 9.879a.32.32 0 0 1-.484.033L1.891 7.769a.366.366 0 0 0-.515.006l-.423.433a.364.364 0 0 0 .006.514l3.258 3.185c.143.14.361.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"></path>
@@ -174,7 +172,7 @@
 
                         <!-- Date -->
                         <div class="flex justify-center">
-                            <span class="px-2 py-1 bg-[#182229] text-[#73828b] rounded-md text-sm">MARDI</span>
+                            <span class="px-2 py-1 bg-[#182229] text-[#aebac1] rounded-md text-sm">MARDI</span>
                         </div>
                         <!-- Date -->
 
@@ -183,7 +181,7 @@
                                 <!-- Received message text 3 -->
                                 <div class="flex flex-none space-x-6 bg-[#202c33] px-2 py-1 rounded-tr-md rounded-br-md rounded-bl-md">
                                     <span class="text-sm">Petit moi je suis là hein</span>
-                                    <span class="mt-3 text-[10px] text-[#73828b] font-bold">09:20</span>
+                                    <span class="mt-3 text-[10px] text-[#aebac1] font-bold">09:20</span>
                                 </div>
                                 <!-- Received message text 3 -->
                             </div>
@@ -195,17 +193,17 @@
                                 <div class="flex items-center space-x-1">
                                     <span class="bg-[#030608] rounded-full p-1">
                                         <svg width="15" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path fill="#73828b" d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM101.6 314c-3.7-13.7 7.5-26 21.7-26H388.7c14.2 0 25.4 12.3 21.7 26C392 382 329.8 432 256 432s-136-50-154.4-118zm116-101.2l0 0 0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0zm160 0l0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0 0 0z"/>
+                                            <path fill="#aebac1" d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM101.6 314c-3.7-13.7 7.5-26 21.7-26H388.7c14.2 0 25.4 12.3 21.7 26C392 382 329.8 432 256 432s-136-50-154.4-118zm116-101.2l0 0 0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0zm160 0l0 0-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2 0 0 0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8l0 0 0 0 0 0z"/>
                                         </svg>
                                     </span>
                                     <span class="bg-[#030608] rounded-full">
                                         <svg viewBox="0 0 25 25" width="25" height="25" class="">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#73828b" d="M14.248 6.973a.688.688 0 0 1 1.174-.488l5.131 5.136a.687.687 0 0 1 0 .973l-5.131 5.136a.688.688 0 0 1-1.174-.488v-2.319c-4.326 0-7.495 1.235-9.85 3.914-.209.237-.596.036-.511-.268 1.215-4.391 4.181-8.492 10.361-9.376v-2.22z"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#aebac1" d="M14.248 6.973a.688.688 0 0 1 1.174-.488l5.131 5.136a.687.687 0 0 1 0 .973l-5.131 5.136a.688.688 0 0 1-1.174-.488v-2.319c-4.326 0-7.495 1.235-9.85 3.914-.209.237-.596.036-.511-.268 1.215-4.391 4.181-8.492 10.361-9.376v-2.22z"></path>
                                         </svg>
                                     </span>
                                     <div class="flex flex-none space-x-6 bg-[#005c4b] px-2  py-1 rounded-tl-md rounded-br-md rounded-bl-md max-w-md">
                                         <span class="text-sm">Oui je suis à l’école de gendarmerie dgdggdg</span>
-                                        <span class="mt-3 text-[10px] text-[#73828b] font-bold">
+                                        <span class="mt-3 text-[10px] text-[#aebac1] font-bold">
                                             11:20
                                             <svg viewBox="0 0 16 15" width="16" height="15" class="inline-block">
                                                 <path fill="#43aacc" d="m15.01 3.316-.478-.372a.365.365 0 0 0-.51.063L8.666 9.879a.32.32 0 0 1-.484.033l-.358-.325a.319.319 0 0 0-.484.032l-.378.483a.418.418 0 0 0 .036.541l1.32 1.266c.143.14.361.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0-.478-.372a.365.365 0 0 0-.51.063L4.566 9.879a.32.32 0 0 1-.484.033L1.891 7.769a.366.366 0 0 0-.515.006l-.423.433a.364.364 0 0 0 .006.514l3.258 3.185c.143.14.361.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"></path>
@@ -218,64 +216,133 @@
                         <!-- Message Four -->
 
                         <!-- Message Five  >> -->
-                            <!-- send message sticker 5 -->
-                            <img class="w-48 h-48 rounded-md" src="./assets/sticker-2.webp" alt="sticker-1">
-                            <!-- send message sticker 5 -->
+                            <div class="flex text-[#aebac1]">
+                                <!-- send message transfert file 5 -->
+                                <div class="flex items-center space-x-1">
+                                    <div class="flex flex-col space-y-2 bg-[#202c33] px-2  py-1 rounded-tr-md rounded-br-md rounded-bl-md max-w-md">
+                                        <div class="flex space-x-2">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" class="">
+                                                <path fill="#aebac1" d="M9.519 3.875a.54.54 0 0 1 .922-.382l4.03 4.034a.54.54 0 0 1 0 .764l-4.03 4.034a.54.54 0 0 1-.922-.383v-1.821c-3.398 0-5.886.97-7.736 3.074-.164.186-.468.028-.402-.211.954-3.449 3.284-6.67 8.138-7.363V3.875Z"></path>
+                                            </svg>
+                                            <i class="text-xs">Transféré</i>
+                                        </div>
+                                        <div class="flex flex-none space-x-2 items-center">
+                                            <svg viewBox="0 0 34 34" width="34" height="34" class="">
+                                                <path fill="#aebac1" d="M17 2c8.3 0 15 6.7 15 15s-6.7 15-15 15S2 25.3 2 17 8.7 2 17 2m0-1C8.2 1 1 8.2 1 17s7.2 16 16 16 16-7.2 16-16S25.8 1 17 1z"></path>
+                                                <path fill="#aebac1" d="M22.4 17.5h-3.2v-6.8c0-.4-.3-.7-.7-.7h-3.2c-.4 0-.7.3-.7.7v6.8h-3.2c-.6 0-.8.4-.4.8l5 5.3c.5.7 1 .5 1.5 0l5-5.3c.7-.5.5-.8-.1-.8z"></path>
+                                            </svg>
+                                            <div class="relative">
+                                                <div class="w-40 h-[2px] rounded-full bg-[#343f46] my-4"></div>
+                                                <span class="absolute right-2 text-[10px] text-[#aebac1] font-bold -bottom-3">
+                                                    11:20
+                                                    <svg viewBox="0 0 16 15" width="16" height="15" class="inline-block">
+                                                        <path fill="#43aacc" d="m15.01 3.316-.478-.372a.365.365 0 0 0-.51.063L8.666 9.879a.32.32 0 0 1-.484.033l-.358-.325a.319.319 0 0 0-.484.032l-.378.483a.418.418 0 0 0 .036.541l1.32 1.266c.143.14.361.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0-.478-.372a.365.365 0 0 0-.51.063L4.566 9.879a.32.32 0 0 1-.484.033L1.891 7.769a.366.366 0 0 0-.515.006l-.423.433a.364.364 0 0 0 .006.514l3.258 3.185c.143.14.361.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+
+                                            <svg viewBox="0 0 55 55" width="55" height="55" class="rounded-full">
+                                                <path fill="#FFAD1F" d="M0 0h55v55H0V0z"></path>
+                                                <path fill="#FFF" d="M27.5 16c-5.6 0-10 4.4-10 10v7.8c0 1.9 1.4 3.3 3.3 3.3h3.3v-8.9h-4.4V26c0-4.3 3.4-7.8 7.8-7.8s7.8 3.4 7.8 7.8v2.2h-4.4v8.9h3.3c1.9 0 3.3-1.4 3.3-3.3V26c0-5.6-4.4-10-10-10z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <span class="bg-[#030608] rounded-full">
+                                        <svg viewBox="0 0 25 25" width="25" height="25" class="">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#aebac1" d="M14.248 6.973a.688.688 0 0 1 1.174-.488l5.131 5.136a.687.687 0 0 1 0 .973l-5.131 5.136a.688.688 0 0 1-1.174-.488v-2.319c-4.326 0-7.495 1.235-9.85 3.914-.209.237-.596.036-.511-.268 1.215-4.391 4.181-8.492 10.361-9.376v-2.22z"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <!-- send message transfert file 5 << -->
+                            </div>
                         <!-- Message Five  >> -->
 
                         <!-- Message Six  << -->
-                            <!-- send message sticker 5 -->
+                            <!-- send message sticker 6 -->
                             <div class="flex justify-end">
-                                <img class="w-48 h-48 rounded-md" src="./assets/sticker-1.webp" alt="sticker-1">
+                               <div class="flex flex-col">
+                                    <img class="w-48 h-48 rounded-md" src="./assets/sticker-1.webp" alt="sticker-1">
+                                    <div class="flex justify-end">
+                                        <span class="mt-3 text-[10px] text-[#aebac1] font-bold bg-[#005c4b] p-1 rounded-md">
+                                            21:20
+                                            <svg viewBox="0 0 16 15" width="16" height="15" class="inline-block">
+                                                <path fill="#43aacc" d="m15.01 3.316-.478-.372a.365.365 0 0 0-.51.063L8.666 9.879a.32.32 0 0 1-.484.033l-.358-.325a.319.319 0 0 0-.484.032l-.378.483a.418.418 0 0 0 .036.541l1.32 1.266c.143.14.361.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0-.478-.372a.365.365 0 0 0-.51.063L4.566 9.879a.32.32 0 0 1-.484.033L1.891 7.769a.366.366 0 0 0-.515.006l-.423.433a.364.364 0 0 0 .006.514l3.258 3.185c.143.14.361.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                               </div>
                             </div>
-                            <!-- send message sticker 5 -->
+                            <!-- send message sticker 6 -->
                         <!-- Message Six  << -->
-
-                         <!-- Message Seven >> -->
-                         <div class="flex text-white">
-                            <!-- Received message text 3 -->
-                            <div class="flex flex-none space-x-6 bg-[#202c33] px-2 py-1 rounded-tr-md rounded-br-md rounded-bl-md">
-                                <span class="text-sm">Je viens te voir pour apprendre tailwindcss 😅</span>
-                                <span class="mt-3 text-[10px] text-[#73828b] font-bold">09:20</span>
+                            
+                        <!-- Message Seven >> -->
+                            <div class="flex text-white">
+                                <!-- Received message text 3 -->
+                                <div class="flex flex-none space-x-6 bg-[#202c33] px-2 py-1 rounded-tr-md rounded-br-md rounded-bl-md">
+                                    <span class="text-sm">🙏🙏🙏 Je viens te voir pour apprendre tailwindcss 😅</span>
+                                    <span class="mt-3 text-[10px] text-[#aebac1] font-bold">09:20</span>
+                                </div>
+                                <!-- Received message text 3 -->
                             </div>
-                            <!-- Received message text 3 -->
-                        </div>
-                    <!-- Message Seven >> -->
+                        <!-- Message Seven >> -->
 
-                     <!-- Message eight >> -->
-                    <div class="flex text-white justify-end">
-                        <!-- send message text 8 << -->
-                        <div class="flex flex-none space-x-6 bg-[#005c4b] px-2  py-1 rounded-tl-md rounded-br-md rounded-bl-md">
-                            <span class="text-sm">🙏🙏🙏 je voulais que tu m'aide sur un truc sur laravel même ?</span>
-                            <span class="mt-3 text-[10px] text-[#73828b] font-bold">
-                                21:20
-                                <svg viewBox="0 0 16 15" width="16" height="15" class="inline-block">
-                                    <path fill="#43aacc" d="m15.01 3.316-.478-.372a.365.365 0 0 0-.51.063L8.666 9.879a.32.32 0 0 1-.484.033l-.358-.325a.319.319 0 0 0-.484.032l-.378.483a.418.418 0 0 0 .036.541l1.32 1.266c.143.14.361.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0-.478-.372a.365.365 0 0 0-.51.063L4.566 9.879a.32.32 0 0 1-.484.033L1.891 7.769a.366.366 0 0 0-.515.006l-.423.433a.364.364 0 0 0 .006.514l3.258 3.185c.143.14.361.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"></path>
-                                </svg>
-                            </span>
-                        </div>
-                        <!-- send message text 8 << -->
-                    </div>
-                <!-- Message eight >> -->
+                        <!-- Message eight << -->
+                            <!-- send message sound 8 -->
+                            <div class="flex justify-end text-white">
+                                <div class="flex items-end flex-none space-x-4 bg-[#005c4b] pb-1 pt-2 px-3 rounded-tl-md rounded-br-md rounded-bl-md max-w-md">
+                                    <div class="relative">
+                                        <img class="h-14 w-14 rounded-full" src="./assets/user-1.jpg" alt="">   
+                                        <svg viewBox="0 0 19 26" width="19" height="26" class="absolute -bottom-0 right-1">
+                                            <path fill="#005c4b" class="ptt-status-background" d="M9.217 24.401c-1.158 0-2.1-.941-2.1-2.1v-2.366c-2.646-.848-4.652-3.146-5.061-5.958l-.052-.357-.003-.081a2.023 2.023 0 0 1 .571-1.492c.39-.404.939-.637 1.507-.637h.3c.254 0 .498.044.724.125v-6.27A4.27 4.27 0 0 1 9.367 1a4.27 4.27 0 0 1 4.265 4.265v6.271c.226-.081.469-.125.723-.125h.3c.564 0 1.112.233 1.501.64s.597.963.571 1.526c0 .005.001.124-.08.6-.47 2.703-2.459 4.917-5.029 5.748v2.378c0 1.158-.942 2.1-2.1 2.1h-.301v-.002z"></path>
+                                            <path fill="#43abcd" class="ptt-status-icon" d="M9.367 15.668a2.765 2.765 0 0 0 2.765-2.765V5.265a2.765 2.765 0 0 0-5.529 0v7.638a2.764 2.764 0 0 0 2.764 2.765zm5.288-2.758h-.3a.64.64 0 0 0-.631.598l-.059.285a4.397 4.397 0 0 1-4.298 3.505 4.397 4.397 0 0 1-4.304-3.531l-.055-.277a.628.628 0 0 0-.629-.579h-.3a.563.563 0 0 0-.579.573l.04.278a5.894 5.894 0 0 0 5.076 4.978v3.562c0 .33.27.6.6.6h.3c.33 0 .6-.27.6-.6V18.73c2.557-.33 4.613-2.286 5.051-4.809.057-.328.061-.411.061-.411a.57.57 0 0 0-.573-.6z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="flex space-x-2">
+                                        <!-- Icon play -->
+                                        <svg viewBox="0 0 34 34" class="w-10 h-10">
+                                            <path fill="#d1d7db" d="M8.5 8.7c0-1.7 1.2-2.4 2.6-1.5l14.4 8.3c1.4.8 1.4 2.2 0 3l-14.4 8.3c-1.4.8-2.6.2-2.6-1.5V8.7z"></path>
+                                        </svg>
+                                        <!-- Icon play -->
+
+                                        <div class="flex flex-col space-y-1">
+                                            <svg class="h-8" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 381.02 95.13">
+                                                <path d="M101,23.32a3.78,3.78,0,0,1,7.56,0v48.5a3.78,3.78,0,0,1-7.56,0V23.32ZM0,31.82a3.78,3.78,0,1,1,7.56,0V63.31a3.78,3.78,0,0,1-7.56,0V31.82Zm14.42-8.5a3.78,3.78,0,0,1,7.56,0v48.5a3.78,3.78,0,0,1-7.56,0V23.32ZM28.9,13.9a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9ZM43.26,3.78a3.78,3.78,0,0,1,7.56,0V91.35a3.78,3.78,0,0,1-7.56,0V3.78Zm43.27,28a3.78,3.78,0,1,1,7.56,0V63.31a3.78,3.78,0,0,1-7.56,0V31.82Zm-14.42-8.5a3.78,3.78,0,0,1,7.56,0v48.5a3.78,3.78,0,0,1-7.56,0V23.32ZM57.74,13.9a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9Zm57.69,0a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9Z" fill="#aebac1"/>
+                                                <path d="M230,23.32a3.78,3.78,0,1,1,7.56,0v48.5a3.78,3.78,0,0,1-7.56,0V23.32Zm-101,8.5a3.78,3.78,0,0,1,7.56,0V63.31a3.78,3.78,0,0,1-7.56,0V31.82Zm14.42-8.5a3.78,3.78,0,0,1,7.56,0v48.5a3.78,3.78,0,0,1-7.56,0V23.32ZM158,13.9a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9ZM172.33,3.78a3.78,3.78,0,1,1,7.56,0V91.35a3.78,3.78,0,0,1-7.56,0V3.78Zm43.27,28a3.78,3.78,0,1,1,7.56,0V63.31a3.78,3.78,0,0,1-7.56,0V31.82Zm-14.42-8.5a3.78,3.78,0,0,1,7.56,0v48.5a3.78,3.78,0,0,1-7.56,0V23.32ZM186.81,13.9a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9Zm57.69,0a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9Z" fill="#aebac1"/>
+                                                <path d="M359.1,23.32a3.78,3.78,0,0,1,7.56,0v48.5a3.78,3.78,0,0,1-7.56,0V23.32Zm-101,8.5a3.78,3.78,0,1,1,7.56,0V63.31a3.78,3.78,0,1,1-7.56,0V31.82Zm14.42-8.5a3.78,3.78,0,1,1,7.56,0v48.5a3.78,3.78,0,1,1-7.56,0V23.32Zm14.48-9.42a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9ZM301.41,3.78a3.78,3.78,0,0,1,7.56,0V91.35a3.78,3.78,0,0,1-7.56,0V3.78Zm43.27,28a3.78,3.78,0,0,1,7.56,0V63.31a3.78,3.78,0,0,1-7.56,0V31.82Zm-14.42-8.5a3.78,3.78,0,1,1,7.56,0v48.5a3.78,3.78,0,1,1-7.56,0V23.32ZM315.89,13.9a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9Zm57.69,0a3.72,3.72,0,1,1,7.44,0V81.24a3.72,3.72,0,1,1-7.44,0V13.9Z" fill="#aebac1"/>
+                                            </svg>
+                                            <div class="flex text-[10px] text-[#aebac1] justify-between items-center">
+                                                <span>0:11</span>
+                                                <span class="font-bold">
+                                                    0:20
+                                                    <svg viewBox="0 0 16 15" width="16" height="15" class="inline-block">
+                                                        <path fill="#43aacc" d="m15.01 3.316-.478-.372a.365.365 0 0 0-.51.063L8.666 9.879a.32.32 0 0 1-.484.033l-.358-.325a.319.319 0 0 0-.484.032l-.378.483a.418.418 0 0 0 .036.541l1.32 1.266c.143.14.361.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0-.478-.372a.365.365 0 0 0-.51.063L4.566 9.879a.32.32 0 0 1-.484.033L1.891 7.769a.366.366 0 0 0-.515.006l-.423.433a.364.364 0 0 0 .006.514l3.258 3.185c.143.14.361.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- send message sound 8 -->
+                        <!-- Message eight  << -->
 
                     </div>
-                </div>
                 <!-- Body -->
 
                   <!-- Footer -->
-                  <div class="flex space-x-2 items-center bg-[#202c33] px-6 py-4">
+                  <div class="flex flex-none space-x-2 items-center bg-[#202c33] px-6 py-4">
                     <div class="flex space-x-4 cursor-pointer">
                         <svg viewBox="0 0 24 24" width="28" height="28" class="ekdr8vow dhq51u3o">
-                            <path fill="#73828b" d="M9.153 11.603c.795 0 1.439-.879 1.439-1.962s-.644-1.962-1.439-1.962-1.439.879-1.439 1.962.644 1.962 1.439 1.962zm-3.204 1.362c-.026-.307-.131 5.218 6.063 5.551 6.066-.25 6.066-5.551 6.066-5.551-6.078 1.416-12.129 0-12.129 0zm11.363 1.108s-.669 1.959-5.051 1.959c-3.505 0-5.388-1.164-5.607-1.959 0 0 5.912 1.055 10.658 0zM11.804 1.011C5.609 1.011.978 6.033.978 12.228s4.826 10.761 11.021 10.761S23.02 18.423 23.02 12.228c.001-6.195-5.021-11.217-11.216-11.217zM12 21.354c-5.273 0-9.381-3.886-9.381-9.159s3.942-9.548 9.215-9.548 9.548 4.275 9.548 9.548c-.001 5.272-4.109 9.159-9.382 9.159zm3.108-9.751c.795 0 1.439-.879 1.439-1.962s-.644-1.962-1.439-1.962-1.439.879-1.439 1.962.644 1.962 1.439 1.962z"></path>
+                            <path fill="#aebac1" d="M9.153 11.603c.795 0 1.439-.879 1.439-1.962s-.644-1.962-1.439-1.962-1.439.879-1.439 1.962.644 1.962 1.439 1.962zm-3.204 1.362c-.026-.307-.131 5.218 6.063 5.551 6.066-.25 6.066-5.551 6.066-5.551-6.078 1.416-12.129 0-12.129 0zm11.363 1.108s-.669 1.959-5.051 1.959c-3.505 0-5.388-1.164-5.607-1.959 0 0 5.912 1.055 10.658 0zM11.804 1.011C5.609 1.011.978 6.033.978 12.228s4.826 10.761 11.021 10.761S23.02 18.423 23.02 12.228c.001-6.195-5.021-11.217-11.216-11.217zM12 21.354c-5.273 0-9.381-3.886-9.381-9.159s3.942-9.548 9.215-9.548 9.548 4.275 9.548 9.548c-.001 5.272-4.109 9.159-9.382 9.159zm3.108-9.751c.795 0 1.439-.879 1.439-1.962s-.644-1.962-1.439-1.962-1.439.879-1.439 1.962.644 1.962 1.439 1.962z"></path>
                         </svg>
                         <svg viewBox="0 0 24 24" width="28" height="28" class="">
-                            <path fill="#73828b" d="M1.816 15.556v.002c0 1.502.584 2.912 1.646 3.972s2.472 1.647 3.974 1.647a5.58 5.58 0 0 0 3.972-1.645l9.547-9.548c.769-.768 1.147-1.767 1.058-2.817-.079-.968-.548-1.927-1.319-2.698-1.594-1.592-4.068-1.711-5.517-.262l-7.916 7.915c-.881.881-.792 2.25.214 3.261.959.958 2.423 1.053 3.263.215l5.511-5.512c.28-.28.267-.722.053-.936l-.244-.244c-.191-.191-.567-.349-.957.04l-5.506 5.506c-.18.18-.635.127-.976-.214-.098-.097-.576-.613-.213-.973l7.915-7.917c.818-.817 2.267-.699 3.23.262.5.501.802 1.1.849 1.685.051.573-.156 1.111-.589 1.543l-9.547 9.549a3.97 3.97 0 0 1-2.829 1.171 3.975 3.975 0 0 1-2.83-1.173 3.973 3.973 0 0 1-1.172-2.828c0-1.071.415-2.076 1.172-2.83l7.209-7.211c.157-.157.264-.579.028-.814L11.5 4.36a.572.572 0 0 0-.834.018l-7.205 7.207a5.577 5.577 0 0 0-1.645 3.971z"></path>
+                            <path fill="#aebac1" d="M1.816 15.556v.002c0 1.502.584 2.912 1.646 3.972s2.472 1.647 3.974 1.647a5.58 5.58 0 0 0 3.972-1.645l9.547-9.548c.769-.768 1.147-1.767 1.058-2.817-.079-.968-.548-1.927-1.319-2.698-1.594-1.592-4.068-1.711-5.517-.262l-7.916 7.915c-.881.881-.792 2.25.214 3.261.959.958 2.423 1.053 3.263.215l5.511-5.512c.28-.28.267-.722.053-.936l-.244-.244c-.191-.191-.567-.349-.957.04l-5.506 5.506c-.18.18-.635.127-.976-.214-.098-.097-.576-.613-.213-.973l7.915-7.917c.818-.817 2.267-.699 3.23.262.5.501.802 1.1.849 1.685.051.573-.156 1.111-.589 1.543l-9.547 9.549a3.97 3.97 0 0 1-2.829 1.171 3.975 3.975 0 0 1-2.83-1.173 3.973 3.973 0 0 1-1.172-2.828c0-1.071.415-2.076 1.172-2.83l7.209-7.211c.157-.157.264-.579.028-.814L11.5 4.36a.572.572 0 0 0-.834.018l-7.205 7.207a5.577 5.577 0 0 0-1.645 3.971z"></path>
                         </svg>
                     </div>
                     <div class="flex flex-grow items-center space-x-4 ">
-                        <input type="text" class="focus:outline-none bg-[#2a3942] w-full text-[#73828b] p-3 rounded-lg text-sm" placeholder="Taper un message">
+                        <input type="text" class="focus:outline-none bg-[#2a3942] w-full text-[#aebac1] p-3 rounded-lg text-sm" placeholder="Taper un message">
                         <svg viewBox="0 0 24 24" width="28" height="28" class="cursor-pointer">
-                            <path fill="#73828b" d="M11.999 14.942c2.001 0 3.531-1.53 3.531-3.531V4.35c0-2.001-1.53-3.531-3.531-3.531S8.469 2.35 8.469 4.35v7.061c0 2.001 1.53 3.531 3.53 3.531zm6.238-3.53c0 3.531-2.942 6.002-6.237 6.002s-6.237-2.471-6.237-6.002H3.761c0 4.001 3.178 7.297 7.061 7.885v3.884h2.354v-3.884c3.884-.588 7.061-3.884 7.061-7.885h-2z"></path>
+                            <path fill="#aebac1" d="M11.999 14.942c2.001 0 3.531-1.53 3.531-3.531V4.35c0-2.001-1.53-3.531-3.531-3.531S8.469 2.35 8.469 4.35v7.061c0 2.001 1.53 3.531 3.53 3.531zm6.238-3.53c0 3.531-2.942 6.002-6.237 6.002s-6.237-2.471-6.237-6.002H3.761c0 4.001 3.178 7.297 7.061 7.885v3.884h2.354v-3.884c3.884-.588 7.061-3.884 7.061-7.885h-2z"></path>
                         </svg>
                     </div>
                 </div>
