@@ -2,7 +2,8 @@
 # Intallation in local:
 
 ```typescript
-git clone https://github.com/Ange0/tailwindcss-whatsapp.git```
+git clone https://github.com/Ange0/tailwindcss-whatsapp.git
+```
 
 
 # tailwind-tiktok
